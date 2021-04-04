@@ -11,8 +11,8 @@
   @include clearfix;
 
   [class^="col-"] {
-    background-color: orangered;
-    color: lightgray;
+    // background-color: orangered;
+    color: gray;
     float: left;
 
     &:not(:last-child) {
