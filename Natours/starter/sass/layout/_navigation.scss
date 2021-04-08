@@ -119,7 +119,7 @@
             transition: all .2s;
         }
 
-        &::before { top: -.8rem } //top line of three 
+        &::before { top: -.8rem } //top line of three transform-origin can change the point of rotation instead of center
         &::after { top: .8rem; }  // bottom line of three
         
     }
@@ -145,5 +145,6 @@
         top: 0;
         transform: rotate(-135deg); //rotate to make an X (180 - 45 deg)
     }
+
 
 }
