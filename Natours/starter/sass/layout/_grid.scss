@@ -1,6 +1,5 @@
 .row {
   max-width: $grid-width;
-  //background-color:#eee;
   margin: 0 auto;
 
 
@@ -14,12 +13,12 @@
 
   @include respond(tab-port) {
     max-width: 50rem;
+    padding: 0 3rem;
   }
 
   @include clearfix;
 
   [class^="col-"] {
-    // background-color: orangered;
     color: gray;
     float: left;
 
